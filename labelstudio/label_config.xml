@@ -1,0 +1,13 @@
+<View>
+  <Header value="Khoanh VÙNG CHE (sticker, tô trơn, quẹt cọ, làm mờ, xóa chữ nhãn, chữ đè lên logo). KHÔNG khoanh: watermark shop, banner ngoài sản phẩm, logo in thật, mác treo còn nguyên."/>
+  <Image name="image" value="$image" zoom="true" zoomControl="true"/>
+  <RectangleLabels name="label" toName="image">
+    <Label value="obstruction" background="#ff00ff"/>
+  </RectangleLabels>
+  <Choices name="kind" toName="image" perRegion="true" showInline="true">
+    <Choice value="sticker"/><Choice value="paint"/><Choice value="blur"/><Choice value="text_overlay"/>
+  </Choices>
+  <Choices name="trang_thai" toName="image" showInline="true">
+    <Choice value="bỏ ảnh này"/>
+  </Choices>
+</View>

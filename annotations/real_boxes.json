@@ -1,0 +1,143 @@
+{
+  "_note": "Khung xấp xỉ (pixel ảnh gốc) của vùng che trên 24 ảnh thật. Dùng để ĐO (không train). kind: sticker | paint (tô trơn / quẹt cọ / xóa nhãn) | blur | text_overlay. on: product | packaging. Gán bằng mắt ngày 13/11/2026, sai số khoảng ±20 px.",
+  "images": {
+    "2aoborcgsa7sfp5lyhudihhtjjrxeb5xhi7o4uj211.jpg": [
+      {"bbox": [372, 570, 452, 662], "kind": "sticker", "on": "product"}
+    ],
+    "2aoborcgsalhhetngelz8dfhkwuu9tk2o6vzvdvk8.jpg": [
+      {"bbox": [480, 492, 635, 658], "kind": "sticker", "on": "product"}
+    ],
+    "2aoborcgsaumscghgialnyqc3f00bnmmu7ix4ue02.jpg": [
+      {"bbox": [345, 265, 445, 345], "kind": "paint", "on": "product"},
+      {"bbox": [560, 232, 602, 288], "kind": "paint", "on": "product"},
+      {"bbox": [492, 360, 532, 440], "kind": "paint", "on": "product"},
+      {"bbox": [700, 485, 752, 605], "kind": "paint", "on": "packaging"}
+    ],
+    "2aoborcgsawlhmqhddfrbgt41bcbyz2rrcdbctps5.jpg": [
+      {"bbox": [422, 272, 518, 325], "kind": "paint", "on": "product"},
+      {"bbox": [285, 388, 360, 432], "kind": "paint", "on": "product"},
+      {"bbox": [568, 345, 708, 492], "kind": "paint", "on": "product"},
+      {"bbox": [428, 505, 562, 632], "kind": "paint", "on": "product"},
+      {"bbox": [528, 548, 768, 742], "kind": "paint", "on": "packaging"}
+    ],
+    "2aoborcgsb8pkllzsd5a0dtvsvltjyqhnerxj63s3.jpg": [
+      {"bbox": [298, 308, 448, 398], "kind": "paint", "on": "product"},
+      {"bbox": [458, 418, 508, 508], "kind": "paint", "on": "product"},
+      {"bbox": [538, 292, 578, 322], "kind": "paint", "on": "product"},
+      {"bbox": [662, 192, 842, 398], "kind": "paint", "on": "packaging"}
+    ],
+    "2aoborcgsbgadzqt0swsrfosavxyrv4cq2k6imxc9.jpg": [
+      {"bbox": [262, 284, 336, 364], "kind": "sticker", "on": "product"},
+      {"bbox": [660, 301, 740, 387], "kind": "sticker", "on": "product"},
+      {"bbox": [262, 529, 341, 609], "kind": "sticker", "on": "product"},
+      {"bbox": [654, 512, 734, 597], "kind": "sticker", "on": "product"},
+      {"bbox": [262, 745, 341, 825], "kind": "sticker", "on": "product"},
+      {"bbox": [654, 751, 740, 836], "kind": "sticker", "on": "product"}
+    ],
+    "2aoborcgsbkbayat4jb1dwl1putitypqnidig4cc10.jpg": [
+      {"bbox": [340, 205, 470, 295], "kind": "sticker", "on": "product"},
+      {"bbox": [665, 215, 800, 300], "kind": "sticker", "on": "product"},
+      {"bbox": [340, 445, 470, 535], "kind": "sticker", "on": "product"},
+      {"bbox": [670, 450, 800, 540], "kind": "sticker", "on": "product"},
+      {"bbox": [428, 533, 482, 562], "kind": "sticker", "on": "product"},
+      {"bbox": [335, 660, 465, 755], "kind": "sticker", "on": "product"},
+      {"bbox": [690, 665, 820, 755], "kind": "sticker", "on": "product"},
+      {"bbox": [443, 758, 497, 784], "kind": "sticker", "on": "product"},
+      {"bbox": [783, 758, 837, 782], "kind": "sticker", "on": "product"}
+    ],
+    "2aoborcgsbs8ab2vwn79ktiqoadmuewnt5kjxqt24.jpg": [
+      {"bbox": [171, 148, 239, 228], "kind": "paint", "on": "product"},
+      {"bbox": [262, 193, 296, 239], "kind": "paint", "on": "product"},
+      {"bbox": [643, 205, 694, 239], "kind": "paint", "on": "product"},
+      {"bbox": [785, 119, 848, 159], "kind": "paint", "on": "product"},
+      {"bbox": [694, 350, 796, 384], "kind": "paint", "on": "product"},
+      {"bbox": [842, 222, 944, 267], "kind": "paint", "on": "product"},
+      {"bbox": [165, 694, 245, 751], "kind": "paint", "on": "product"},
+      {"bbox": [256, 757, 290, 813], "kind": "paint", "on": "product"},
+      {"bbox": [381, 694, 472, 739], "kind": "paint", "on": "packaging"},
+      {"bbox": [762, 705, 808, 734], "kind": "paint", "on": "product"},
+      {"bbox": [654, 774, 705, 796], "kind": "paint", "on": "product"},
+      {"bbox": [853, 808, 910, 848], "kind": "paint", "on": "product"},
+      {"bbox": [705, 876, 796, 910], "kind": "paint", "on": "product"},
+      {"bbox": [985, 705, 1024, 819], "kind": "paint", "on": "packaging"}
+    ],
+    "2aoborcgszghd2vegfom0pnixom93snhjbz10omq1.jpg": [
+      {"bbox": [252, 392, 372, 448], "kind": "paint", "on": "product"},
+      {"bbox": [448, 348, 548, 392], "kind": "paint", "on": "product"},
+      {"bbox": [598, 462, 742, 602], "kind": "paint", "on": "product"},
+      {"bbox": [338, 618, 482, 702], "kind": "paint", "on": "product"},
+      {"bbox": [838, 340, 900, 600], "kind": "paint", "on": "packaging"}
+    ],
+    "2aoborcgszkeyzflzm3xyk7vwafklbbhrybrpst212.jpg": [
+      {"bbox": [353, 415, 495, 575], "kind": "sticker", "on": "product"}
+    ],
+    "2aoborcgszmtyrh8dtuxnfcfhj1otwdizgmjeqzg6.jpg": [
+      {"bbox": [648, 512, 745, 614], "kind": "sticker", "on": "product"},
+      {"bbox": [250, 711, 347, 813], "kind": "sticker", "on": "product"}
+    ],
+    "2aoborcgszsai0e6caeemxoiqpqzbqxvk1abfl687.jpg": [
+      {"bbox": [250, 375, 364, 500], "kind": "sticker", "on": "product"}
+    ],
+    "871150651_1808953780743115_7720377678263211338_n.jpg": [
+      {"bbox": [113, 170, 169, 197], "kind": "text_overlay", "on": "product"},
+      {"bbox": [408, 170, 468, 197], "kind": "text_overlay", "on": "product"},
+      {"bbox": [113, 465, 172, 492], "kind": "text_overlay", "on": "product"},
+      {"bbox": [408, 465, 468, 492], "kind": "text_overlay", "on": "product"}
+    ],
+    "887033736_2338247623607308_4162487055322800798_n.jpg": [
+      {"bbox": [161, 209, 211, 256], "kind": "sticker", "on": "product"}
+    ],
+    "S9ef539d84fac45c682fdb62e3b09dd63h.jpg_720x720q80.jpg_.webp": [
+      {"bbox": [418, 252, 446, 292], "kind": "paint", "on": "product"}
+    ],
+    "aa81044c1530f1623f3752e0ad2a7b48.jpg_720x720q80.jpg_.webp": [
+      {"bbox": [272, 280, 302, 346], "kind": "paint", "on": "product", "note": "mác treo bị xóa trơn"},
+      {"bbox": [410, 292, 450, 348], "kind": "paint", "on": "product", "note": "mác treo bị xóa trơn"},
+      {"bbox": [244, 232, 290, 250], "kind": "paint", "on": "product", "note": "nhãn cổ áo trơn (chưa chắc)"},
+      {"bbox": [384, 256, 424, 268], "kind": "paint", "on": "product", "note": "nhãn cổ áo trơn (chưa chắc)"}
+    ],
+    "e85c2f9e-7731-48f6-a2d0-c298be3d885f.jpg": [
+      {"bbox": [105, 214, 148, 262], "kind": "sticker", "on": "product"},
+      {"bbox": [379, 214, 423, 257], "kind": "sticker", "on": "product"},
+      {"bbox": [105, 345, 148, 384], "kind": "sticker", "on": "product"},
+      {"bbox": [379, 336, 423, 379], "kind": "sticker", "on": "product"},
+      {"bbox": [70, 475, 113, 515], "kind": "sticker", "on": "product"},
+      {"bbox": [353, 475, 397, 515], "kind": "sticker", "on": "product"}
+    ],
+    "img_0.png": [
+      {"bbox": [515, 640, 633, 757], "kind": "sticker", "on": "product"},
+      {"bbox": [363, 455, 441, 569], "kind": "blur", "on": "product"},
+      {"bbox": [669, 413, 754, 498], "kind": "blur", "on": "product"}
+    ],
+    "img_1.png": [
+      {"bbox": [367, 600, 558, 775], "kind": "sticker", "on": "product"},
+      {"bbox": [839, 427, 967, 512], "kind": "blur", "on": "product"},
+      {"bbox": [256, 228, 341, 327], "kind": "blur", "on": "product"}
+    ],
+    "img_2.png": [
+      {"bbox": [629, 595, 740, 725], "kind": "sticker", "on": "product"}
+    ],
+    "img_3.png": [
+      {"bbox": [420, 687, 509, 797], "kind": "sticker", "on": "product"},
+      {"bbox": [657, 509, 747, 643], "kind": "sticker", "on": "product"},
+      {"bbox": [733, 356, 811, 427], "kind": "blur", "on": "product"},
+      {"bbox": [306, 491, 356, 555], "kind": "blur", "on": "product"}
+    ],
+    "img_7.png": [
+      {"bbox": [401, 595, 552, 718], "kind": "sticker", "on": "product"},
+      {"bbox": [306, 341, 405, 455], "kind": "blur", "on": "product"}
+    ],
+    "vn-11134207-820l4-mhyirvxrij2d7e@resize_w900_nl.webp": [
+      {"bbox": [462, 436, 498, 498], "kind": "paint", "on": "product"},
+      {"bbox": [538, 404, 622, 484], "kind": "paint", "on": "product"},
+      {"bbox": [427, 276, 484, 329], "kind": "paint", "on": "product"}
+    ],
+    "vn-11134207-820l4-mjahvtxa72the5@resize_w900_nl.webp": [
+      {"bbox": [345, 265, 445, 345], "kind": "paint", "on": "product"},
+      {"bbox": [560, 232, 602, 288], "kind": "paint", "on": "product"},
+      {"bbox": [492, 360, 532, 440], "kind": "paint", "on": "product"},
+      {"bbox": [700, 485, 752, 605], "kind": "paint", "on": "packaging"}
+    ]
+  },
+  "duplicates": {"vn-11134207-820l4-mjahvtxa72the5@resize_w900_nl.webp": "2aoborcgsaumscghgialnyqc3f00bnmmu7ix4ue02.jpg"}
+}

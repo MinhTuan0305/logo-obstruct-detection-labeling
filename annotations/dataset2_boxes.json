@@ -1,0 +1,120 @@
+{
+  "_note": "Khung xấp xỉ (pixel ảnh gốc) vùng che trên 20 ảnh dataset2 (áo Polo Ralph Lauren / Lacoste). Chỉ dùng để ĐO. kind: paint = mảng trắng đè, xóa trơn nhãn, nét quẹt/gạch (trắng hoặc hồng). on: product | packaging (túi giấy). Watermark 'Cothi_shop' của shop KHÔNG tính là che. Gán bằng mắt 13/11/2026, sai số ±20 px; ảnh 16 có 5 khung rất nhỏ trên ảnh thu nhỏ.",
+  "images": {
+    "6355c060f3b18c93da20d14c67c4b24c.jpg_720x720q80.jpg_.webp": [
+      {"bbox": [318, 176, 404, 206], "kind": "paint", "on": "product", "note": "nhãn cổ xóa trơn"},
+      {"bbox": [400, 228, 486, 346], "kind": "paint", "on": "product", "note": "mác treo xóa trơn"}
+    ],
+    "S7b8f6a4740ff491c811b419f449a2190e.jpg_720x720q80.jpg_.webp": [
+      {"bbox": [311, 80, 436, 105], "kind": "paint", "on": "product", "note": "nhãn cổ xóa chữ"}
+    ],
+    "vn-11134201-81ztc-mu3tmvqiyj9c16.webp": [
+      {"bbox": [437, 130, 483, 172], "kind": "paint", "on": "product"},
+      {"bbox": [163, 228, 223, 283], "kind": "paint", "on": "product"},
+      {"bbox": [590, 176, 669, 255], "kind": "paint", "on": "product"},
+      {"bbox": [780, 320, 836, 372], "kind": "paint", "on": "product"},
+      {"bbox": [56, 437, 107, 478], "kind": "paint", "on": "product"},
+      {"bbox": [497, 446, 594, 502], "kind": "paint", "on": "product"},
+      {"bbox": [93, 525, 149, 590], "kind": "paint", "on": "product"}
+    ],
+    "vn-11134201-81ztc-mu3tmvve8buu1d.webp": [
+      {"bbox": [485, 48, 540, 85], "kind": "paint", "on": "product"},
+      {"bbox": [530, 100, 580, 160], "kind": "paint", "on": "product"},
+      {"bbox": [800, 205, 850, 250], "kind": "paint", "on": "product"},
+      {"bbox": [665, 365, 725, 400], "kind": "paint", "on": "product"},
+      {"bbox": [610, 450, 665, 500], "kind": "paint", "on": "product"},
+      {"bbox": [300, 270, 360, 300], "kind": "paint", "on": "product"},
+      {"bbox": [185, 425, 265, 485], "kind": "paint", "on": "product"},
+      {"bbox": [500, 665, 560, 720], "kind": "paint", "on": "product"},
+      {"bbox": [255, 735, 290, 770], "kind": "paint", "on": "product"}
+    ],
+    "vn-11134201-81ztc-mu3tninmx34439.webp": [
+      {"bbox": [293, 88, 366, 151], "kind": "paint", "on": "product"},
+      {"bbox": [317, 332, 376, 380], "kind": "paint", "on": "product"},
+      {"bbox": [654, 380, 702, 478], "kind": "paint", "on": "product"}
+    ],
+    "vn-11134201-81ztc-mu3tniq60z5yf4.webp": [
+      {"bbox": [261, 129, 313, 189], "kind": "paint", "on": "product"},
+      {"bbox": [454, 171, 523, 236], "kind": "paint", "on": "product"},
+      {"bbox": [103, 236, 184, 308], "kind": "paint", "on": "product"},
+      {"bbox": [416, 330, 497, 377], "kind": "paint", "on": "product"},
+      {"bbox": [694, 296, 746, 339], "kind": "paint", "on": "product"},
+      {"bbox": [197, 540, 274, 583], "kind": "paint", "on": "product"},
+      {"bbox": [304, 596, 381, 690], "kind": "paint", "on": "product"},
+      {"bbox": [686, 660, 746, 711], "kind": "paint", "on": "product"},
+      {"bbox": [664, 0, 763, 34], "kind": "paint", "on": "product"}
+    ],
+    "vn-11134201-81ztc-mu3tniy8vcapa1.webp": [
+      {"bbox": [413, 162, 465, 194], "kind": "paint", "on": "product"},
+      {"bbox": [539, 403, 633, 471], "kind": "paint", "on": "product"},
+      {"bbox": [669, 429, 722, 497], "kind": "paint", "on": "product"}
+    ],
+    "vn-11134201-81ztc-mu3twm3llrm297.webp": [
+      {"bbox": [478, 113, 526, 152], "kind": "paint", "on": "product"},
+      {"bbox": [165, 426, 248, 526], "kind": "paint", "on": "product"}
+    ],
+    "vn-11134207-81ztc-mmtte4t478qr9a.webp": [
+      {"bbox": [489, 193, 580, 222], "kind": "paint", "on": "product", "note": "gạch đỏ nhãn cổ"},
+      {"bbox": [546, 273, 620, 341], "kind": "paint", "on": "product", "note": "gạch đỏ mác treo"}
+    ],
+    "vn-11134207-81ztc-mmttthmuvytg02.webp": [
+      {"bbox": [455, 150, 575, 185], "kind": "paint", "on": "product"},
+      {"bbox": [336, 267, 410, 364], "kind": "paint", "on": "product"}
+    ],
+    "vn-11134207-81ztc-mmttvqh8dmo3fc.webp": [
+      {"bbox": [410, 176, 438, 245], "kind": "paint", "on": "product"},
+      {"bbox": [233, 279, 267, 341], "kind": "paint", "on": "product"},
+      {"bbox": [774, 256, 865, 307], "kind": "paint", "on": "packaging"},
+      {"bbox": [666, 506, 711, 523], "kind": "paint", "on": "product"},
+      {"bbox": [626, 535, 666, 603], "kind": "paint", "on": "product"},
+      {"bbox": [347, 580, 392, 597], "kind": "paint", "on": "product"},
+      {"bbox": [256, 660, 301, 700], "kind": "paint", "on": "product"}
+    ],
+    "vn-11134207-81ztc-mmttwnxg3bb679.webp": [
+      {"bbox": [182, 336, 239, 489], "kind": "paint", "on": "product"},
+      {"bbox": [273, 279, 301, 336], "kind": "paint", "on": "product"},
+      {"bbox": [603, 284, 848, 364], "kind": "paint", "on": "packaging"},
+      {"bbox": [671, 478, 739, 500], "kind": "paint", "on": "product"},
+      {"bbox": [500, 523, 580, 546], "kind": "paint", "on": "product"},
+      {"bbox": [546, 535, 597, 614], "kind": "paint", "on": "product"}
+    ],
+    "vn-11134207-81ztc-mmuhgnm21qtkb6.webp": [
+      {"bbox": [415, 176, 449, 210], "kind": "paint", "on": "product"},
+      {"bbox": [222, 375, 279, 415], "kind": "paint", "on": "product"},
+      {"bbox": [705, 370, 740, 421], "kind": "paint", "on": "product"},
+      {"bbox": [557, 569, 592, 637], "kind": "paint", "on": "product"}
+    ],
+    "vn-11134207-81ztc-mmuifxu8464gde.webp": [
+      {"bbox": [415, 350, 442, 407], "kind": "paint", "on": "product"}
+    ],
+    "vn-11134207-81ztc-mmuig5vx766b1b.webp": [
+      {"bbox": [529, 350, 600, 400], "kind": "paint", "on": "product"},
+      {"bbox": [500, 590, 548, 878], "kind": "paint", "on": "packaging"}
+    ],
+    "vn-11134207-81ztc-mux16a94exai29@resize_w900_nl.webp": [
+      {"bbox": [310, 95, 335, 120], "kind": "paint", "on": "product"},
+      {"bbox": [190, 160, 245, 200], "kind": "paint", "on": "product"},
+      {"bbox": [690, 165, 715, 215], "kind": "paint", "on": "product"},
+      {"bbox": [748, 420, 770, 445], "kind": "paint", "on": "product"},
+      {"bbox": [200, 650, 240, 700], "kind": "paint", "on": "product"},
+      {"bbox": [645, 670, 685, 720], "kind": "paint", "on": "product"}
+    ],
+    "vn-11134207-81ztc-mux16ag970nbcd@resize_w900_nl.webp": [
+      {"bbox": [652, 258, 672, 288], "kind": "paint", "on": "product"},
+      {"bbox": [120, 200, 140, 220], "kind": "paint", "on": "product"},
+      {"bbox": [225, 200, 245, 220], "kind": "paint", "on": "product"},
+      {"bbox": [85, 275, 105, 295], "kind": "paint", "on": "product"},
+      {"bbox": [220, 272, 240, 292], "kind": "paint", "on": "product"},
+      {"bbox": [165, 358, 185, 378], "kind": "paint", "on": "product"}
+    ],
+    "vn-11134207-820l4-mfwf3pt3frin76.webp": [
+      {"bbox": [597, 341, 620, 375], "kind": "paint", "on": "product", "note": "logo cá sấu tô hồng"}
+    ],
+    "vn-11134207-820l4-mfwf3ptnueix42.webp": [
+      {"bbox": [598, 340, 636, 380], "kind": "paint", "on": "product", "note": "logo cá sấu tô hồng"}
+    ],
+    "vn-11134207-820l4-mfwf3pzdgzd96b.webp": [
+      {"bbox": [392, 483, 671, 535], "kind": "paint", "on": "product", "note": "gạch hồng chữ LACOSTE"}
+    ]
+  }
+}
