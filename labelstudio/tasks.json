@@ -15887,5 +15887,2274 @@
     ]
    }
   ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/01.jpg",
+   "file": "images/01.jpg",
+   "nhom": "01"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.643,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.643,
+      "value": {
+       "x": 43.11218857765198,
+       "y": 38.68046700954437,
+       "width": 19.29858922958374,
+       "height": 20.338919758796692,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/02.jpg",
+   "file": "images/02.jpg",
+   "nhom": "02"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.929,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.929,
+      "value": {
+       "x": 60.494476556777954,
+       "y": 29.21469509601593,
+       "width": 15.942573547363281,
+       "height": 16.058450937271118,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.921,
+      "value": {
+       "x": 21.546466648578644,
+       "y": 56.582581996917725,
+       "width": 18.341009318828583,
+       "height": 18.14950704574585,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g2",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.851,
+      "value": {
+       "x": 79.21535968780518,
+       "y": 33.65841507911682,
+       "width": 4.245495796203613,
+       "height": 4.419291019439697,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g3",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.842,
+      "value": {
+       "x": 41.10491871833801,
+       "y": 41.27621650695801,
+       "width": 15.133368968963623,
+       "height": 15.274614095687866,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g4",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.814,
+      "value": {
+       "x": 58.37313532829285,
+       "y": 42.38792061805725,
+       "width": 4.302668571472168,
+       "height": 4.763847589492798,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g5",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.551,
+      "value": {
+       "x": 37.8496915102005,
+       "y": 54.56538796424866,
+       "width": 4.671293497085571,
+       "height": 4.790985584259033,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/03.jpg",
+   "file": "images/03.jpg",
+   "nhom": "03"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.893,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 767,
+      "original_height": 767,
+      "image_rotation": 0,
+      "score": 0.893,
+      "value": {
+       "x": 32.928866668661385,
+       "y": 44.74763832937785,
+       "width": 30.573892406876425,
+       "height": 18.056570597702088,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 767,
+      "original_height": 767,
+      "image_rotation": 0,
+      "score": 0.59,
+      "value": {
+       "x": 32.89613089629849,
+       "y": 50.429915884482966,
+       "width": 14.071591612257578,
+       "height": 12.373389849606829,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/05.jpg",
+   "file": "images/05.jpg",
+   "nhom": "05"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.922,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 767,
+      "original_height": 767,
+      "image_rotation": 0,
+      "score": 0.922,
+      "value": {
+       "x": 32.83569853184587,
+       "y": 50.735592997524854,
+       "width": 13.848413420158694,
+       "height": 12.591516924961294,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 767,
+      "original_height": 767,
+      "image_rotation": 0,
+      "score": 0.919,
+      "value": {
+       "x": 44.62617279808711,
+       "y": 44.98561177757293,
+       "width": 18.87905314817267,
+       "height": 16.236779960224496,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/06.jpg",
+   "file": "images/06.jpg",
+   "nhom": "06"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.904,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 767,
+      "original_height": 767,
+      "image_rotation": 0,
+      "score": 0.904,
+      "value": {
+       "x": 30.030118502103367,
+       "y": 43.11020116296243,
+       "width": 31.58238496743094,
+       "height": 16.546527409957626,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 767,
+      "original_height": 767,
+      "image_rotation": 0,
+      "score": 0.728,
+      "value": {
+       "x": 29.938659270086376,
+       "y": 47.71397477489407,
+       "width": 14.12492774456079,
+       "height": 12.103888202055492,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/07.jpg",
+   "file": "images/07.jpg",
+   "nhom": "07"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.951,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.951,
+      "value": {
+       "x": 27.258431911468506,
+       "y": 17.80475676059723,
+       "width": 11.953312158584595,
+       "height": 11.489230394363403,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.919,
+      "value": {
+       "x": 42.011475563049316,
+       "y": 47.73891568183899,
+       "width": 17.40391254425049,
+       "height": 16.355836391448975,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g2",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.919,
+      "value": {
+       "x": 30.172094702720642,
+       "y": 59.26390290260315,
+       "width": 13.679713010787964,
+       "height": 12.89736032485962,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/08.jpg",
+   "file": "images/08.jpg",
+   "nhom": "08"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.0,
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/09.jpg",
+   "file": "images/09.jpg",
+   "nhom": "09"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.95,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 954,
+      "original_height": 954,
+      "image_rotation": 0,
+      "score": 0.95,
+      "value": {
+       "x": 32.22789644445263,
+       "y": 27.1617961379717,
+       "width": 7.291973761792453,
+       "height": 8.751910387594995,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 954,
+      "original_height": 954,
+      "image_rotation": 0,
+      "score": 0.94,
+      "value": {
+       "x": 55.921913642803325,
+       "y": 13.87551265692561,
+       "width": 6.010651338525288,
+       "height": 6.983263187688352,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g2",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 954,
+      "original_height": 954,
+      "image_rotation": 0,
+      "score": 0.738,
+      "value": {
+       "x": 26.323368864239388,
+       "y": 51.45014476976055,
+       "width": 17.19158180604691,
+       "height": 16.243134504594142,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g3",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 954,
+      "original_height": 954,
+      "image_rotation": 0,
+      "score": 0.502,
+      "value": {
+       "x": 48.04557944243809,
+       "y": 31.89463105591588,
+       "width": 13.86224518781938,
+       "height": 14.720665633803394,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/10.jpg",
+   "file": "images/10.jpg",
+   "nhom": "10"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.932,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.932,
+      "value": {
+       "x": 10.2474644780159,
+       "y": 59.08154249191284,
+       "width": 14.382022619247437,
+       "height": 14.699220657348633,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.904,
+      "value": {
+       "x": 29.112353920936584,
+       "y": 63.46864700317383,
+       "width": 17.75355339050293,
+       "height": 18.48163604736328,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g2",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.9,
+      "value": {
+       "x": 49.7616171836853,
+       "y": 36.817434430122375,
+       "width": 25.81315040588379,
+       "height": 24.206051230430603,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g3",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.875,
+      "value": {
+       "x": 23.77125918865204,
+       "y": 42.0020192861557,
+       "width": 17.19491481781006,
+       "height": 17.202594876289368,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g4",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.758,
+      "value": {
+       "x": 68.54056119918823,
+       "y": 44.43676173686981,
+       "width": 27.52310037612915,
+       "height": 18.627837300300598,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g5",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.664,
+      "value": {
+       "x": 82.28173851966858,
+       "y": 27.177712321281433,
+       "width": 15.391790866851807,
+       "height": 15.429580211639404,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g6",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.655,
+      "value": {
+       "x": 38.55523467063904,
+       "y": 30.123406648635864,
+       "width": 16.40835404396057,
+       "height": 17.215418815612793,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/11.jpg",
+   "file": "images/11.jpg",
+   "nhom": "11"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.996,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.793,
+      "value": {
+       "x": 56.788551807403564,
+       "y": 47.83892333507538,
+       "width": 14.682352542877197,
+       "height": 14.587101340293884,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.67,
+      "value": {
+       "x": -0.06324648857116699,
+       "y": 37.90205717086792,
+       "width": 28.085362911224365,
+       "height": 19.607436656951904,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g2",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.64,
+      "value": {
+       "x": 48.241040110588074,
+       "y": 62.88526654243469,
+       "width": 17.093518376350403,
+       "height": 16.932082176208496,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g3",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.552,
+      "value": {
+       "x": 48.309725522994995,
+       "y": 62.678730487823486,
+       "width": 38.76028060913086,
+       "height": 18.99092197418213,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g4",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.45,
+      "value": {
+       "x": 44.4240003824234,
+       "y": 31.51153028011322,
+       "width": 12.321004271507263,
+       "height": 12.589138746261597,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g5",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.364,
+      "value": {
+       "x": 67.38436222076416,
+       "y": 63.161325454711914,
+       "width": 19.694089889526367,
+       "height": 18.542134761810303,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g6",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.996,
+      "value": {
+       "x": 42.67578125,
+       "y": 49.609375,
+       "width": 2.05078125,
+       "height": 1.26953125,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/12.jpg",
+   "file": "images/12.jpg",
+   "nhom": "12"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 1.0,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.767,
+      "value": {
+       "x": 44.89315748214722,
+       "y": 55.03864288330078,
+       "width": 25.983166694641113,
+       "height": 17.996037006378174,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.368,
+      "value": {
+       "x": 57.23627805709839,
+       "y": 43.55593919754028,
+       "width": 6.936252117156982,
+       "height": 5.626112222671509,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g2",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.289,
+      "value": {
+       "x": 37.0677649974823,
+       "y": 38.61275315284729,
+       "width": 17.77825355529785,
+       "height": 13.49741816520691,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g3",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.999,
+      "value": {
+       "x": 26.953125,
+       "y": 11.81640625,
+       "width": 9.5703125,
+       "height": 8.3984375,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g4",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 1.0,
+      "value": {
+       "x": 4.00390625,
+       "y": 12.20703125,
+       "width": 2.9296875,
+       "height": 2.734375,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/13.jpg",
+   "file": "images/13.jpg",
+   "nhom": "13"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.995,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.933,
+      "value": {
+       "x": 27.25718915462494,
+       "y": 58.08159112930298,
+       "width": 50.051119923591614,
+       "height": 16.619884967803955,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.995,
+      "value": {
+       "x": 39.2578125,
+       "y": 52.5390625,
+       "width": 2.63671875,
+       "height": 1.66015625,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/14.jpg",
+   "file": "images/14.jpg",
+   "nhom": "14"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.995,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.845,
+      "value": {
+       "x": 5.806627869606018,
+       "y": 57.545679807662964,
+       "width": 44.00750398635864,
+       "height": 8.444631099700928,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.786,
+      "value": {
+       "x": 95.03544569015503,
+       "y": 42.51541495323181,
+       "width": 4.84539270401001,
+       "height": 6.360942125320435,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g2",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.511,
+      "value": {
+       "x": 34.52235162258148,
+       "y": 78.14249396324158,
+       "width": 8.08994174003601,
+       "height": 12.010133266448975,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g3",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.35,
+      "value": {
+       "x": 14.13867473602295,
+       "y": -0.02236105501651764,
+       "width": 9.810280799865723,
+       "height": 5.56093156337738,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g4",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.263,
+      "value": {
+       "x": 44.28686201572418,
+       "y": 22.855859994888306,
+       "width": 17.60580837726593,
+       "height": 25.533324480056763,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g5",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.995,
+      "value": {
+       "x": 19.23828125,
+       "y": 68.45703125,
+       "width": 4.296875,
+       "height": 0.48828125,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/15.jpg",
+   "file": "images/15.jpg",
+   "nhom": "15"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.961,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 945,
+      "original_height": 945,
+      "image_rotation": 0,
+      "score": 0.961,
+      "value": {
+       "x": 43.137578409184854,
+       "y": 65.03865559895833,
+       "width": 15.33642642712467,
+       "height": 15.676179108796296,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 945,
+      "original_height": 945,
+      "image_rotation": 0,
+      "score": 0.595,
+      "value": {
+       "x": 1.1009246583968875,
+       "y": 1.4638900756835938,
+       "width": 98.11984047057136,
+       "height": 22.677146669418093,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g2",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 945,
+      "original_height": 945,
+      "image_rotation": 0,
+      "score": 0.463,
+      "value": {
+       "x": 16.470527447089946,
+       "y": 31.118984323330025,
+       "width": 66.3277568514385,
+       "height": 9.248582950975528,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/16.jpg",
+   "file": "images/16.jpg",
+   "nhom": "16"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.954,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 945,
+      "original_height": 945,
+      "image_rotation": 0,
+      "score": 0.954,
+      "value": {
+       "x": 42.799695534680886,
+       "y": 64.26170066550925,
+       "width": 15.405515640500992,
+       "height": 15.815126126405424,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 945,
+      "original_height": 945,
+      "image_rotation": 0,
+      "score": 0.583,
+      "value": {
+       "x": 1.0552316494088956,
+       "y": 1.131060766795325,
+       "width": 98.22735660290591,
+       "height": 39.398001009825045,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/17.jpg",
+   "file": "images/17.jpg",
+   "nhom": "17"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.968,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 945,
+      "original_height": 945,
+      "image_rotation": 0,
+      "score": 0.968,
+      "value": {
+       "x": 42.73146533461475,
+       "y": 60.71793490616733,
+       "width": 15.245622907366071,
+       "height": 15.404130239335318,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 945,
+      "original_height": 945,
+      "image_rotation": 0,
+      "score": 0.694,
+      "value": {
+       "x": 1.042667065978681,
+       "y": 1.1049270629882812,
+       "width": 97.95593655298627,
+       "height": 39.03852170106595,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/19.jpg",
+   "file": "images/19.jpg",
+   "nhom": "19"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 1.0,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 945,
+      "original_height": 945,
+      "image_rotation": 0,
+      "score": 0.96,
+      "value": {
+       "x": 42.91368918444114,
+       "y": 64.09390888516864,
+       "width": 15.393776868386244,
+       "height": 15.726970692791005,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 945,
+      "original_height": 945,
+      "image_rotation": 0,
+      "score": 0.415,
+      "value": {
+       "x": 1.3413995409768724,
+       "y": 1.5524208230316323,
+       "width": 98.11084706947287,
+       "height": 22.658082972127925,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g2",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 945,
+      "original_height": 945,
+      "image_rotation": 0,
+      "score": 1.0,
+      "value": {
+       "x": 53.96825396825397,
+       "y": 28.35978835978836,
+       "width": 10.476190476190476,
+       "height": 8.148148148148149,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g3",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 945,
+      "original_height": 945,
+      "image_rotation": 0,
+      "score": 1.0,
+      "value": {
+       "x": 44.76190476190476,
+       "y": 31.005291005291006,
+       "width": 8.148148148148149,
+       "height": 4.021164021164021,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g4",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 945,
+      "original_height": 945,
+      "image_rotation": 0,
+      "score": 1.0,
+      "value": {
+       "x": 25.714285714285715,
+       "y": 33.333333333333336,
+       "width": 18.73015873015873,
+       "height": 3.1746031746031744,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g5",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 945,
+      "original_height": 945,
+      "image_rotation": 0,
+      "score": 0.999,
+      "value": {
+       "x": 68.14814814814815,
+       "y": 33.75661375661376,
+       "width": 6.137566137566138,
+       "height": 2.857142857142857,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/20.jpg",
+   "file": "images/20.jpg",
+   "nhom": "20"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.955,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 945,
+      "original_height": 945,
+      "image_rotation": 0,
+      "score": 0.955,
+      "value": {
+       "x": 42.868087203414355,
+       "y": 64.21204582093254,
+       "width": 15.19136943514385,
+       "height": 15.712754991319445,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 945,
+      "original_height": 945,
+      "image_rotation": 0,
+      "score": 0.414,
+      "value": {
+       "x": 0.06928443908691406,
+       "y": 1.0217219559603898,
+       "width": 99.26264217921666,
+       "height": 38.80549688187857,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/21.jpg",
+   "file": "images/21.jpg",
+   "nhom": "21"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.967,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.967,
+      "value": {
+       "x": 43.44037473201752,
+       "y": 38.97736072540283,
+       "width": 14.02944028377533,
+       "height": 13.985377550125122,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/22.jpg",
+   "file": "images/22.jpg",
+   "nhom": "22"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.963,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1012,
+      "original_height": 1012,
+      "image_rotation": 0,
+      "score": 0.963,
+      "value": {
+       "x": 43.555133804502226,
+       "y": 51.144650425364375,
+       "width": 8.601982508723443,
+       "height": 7.752604729573246,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1012,
+      "original_height": 1012,
+      "image_rotation": 0,
+      "score": 0.926,
+      "value": {
+       "x": 75.42621476848134,
+       "y": 53.828140680969,
+       "width": 5.826939518743824,
+       "height": 7.254583185369318,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/24.jpg",
+   "file": "images/24.jpg",
+   "nhom": "24"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.951,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1005,
+      "original_height": 1005,
+      "image_rotation": 0,
+      "score": 0.951,
+      "value": {
+       "x": 40.23610281113962,
+       "y": 52.45074068135883,
+       "width": 7.353646197722326,
+       "height": 6.317782425761816,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1005,
+      "original_height": 1005,
+      "image_rotation": 0,
+      "score": 0.932,
+      "value": {
+       "x": 73.68720970343594,
+       "y": 54.5829689443408,
+       "width": 5.494737008317786,
+       "height": 7.8658708411069655,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/25.jpg",
+   "file": "images/25.jpg",
+   "nhom": "25"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.951,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1022,
+      "original_height": 1022,
+      "image_rotation": 0,
+      "score": 0.951,
+      "value": {
+       "x": 42.158093237830236,
+       "y": 51.64658160125673,
+       "width": 7.94059619045071,
+       "height": 6.779901015548557,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1022,
+      "original_height": 1022,
+      "image_rotation": 0,
+      "score": 0.488,
+      "value": {
+       "x": 74.62785276648117,
+       "y": 57.34719950159002,
+       "width": 4.314886940435421,
+       "height": 6.956257978764065,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/27.jpg",
+   "file": "images/27.jpg",
+   "nhom": "27"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.961,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.961,
+      "value": {
+       "x": 37.964850664138794,
+       "y": 42.73078441619873,
+       "width": 12.282192707061768,
+       "height": 20.56741714477539,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/28.jpg",
+   "file": "images/28.jpg",
+   "nhom": "28"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.999,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.963,
+      "value": {
+       "x": 35.766687989234924,
+       "y": 28.03310751914978,
+       "width": 17.29976236820221,
+       "height": 27.40718722343445,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.999,
+      "value": {
+       "x": 41.50390625,
+       "y": 82.2265625,
+       "width": 5.078125,
+       "height": 8.30078125,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/29.jpg",
+   "file": "images/29.jpg",
+   "nhom": "29"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.968,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.968,
+      "value": {
+       "x": 40.41593372821808,
+       "y": 29.313260316848755,
+       "width": 13.288983702659607,
+       "height": 21.849393844604492,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/30.jpg",
+   "file": "images/30.jpg",
+   "nhom": "30"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 1.0,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.958,
+      "value": {
+       "x": 38.58204483985901,
+       "y": 38.56874406337738,
+       "width": 12.285137176513672,
+       "height": 20.213618874549866,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 1.0,
+      "value": {
+       "x": 44.62890625,
+       "y": 90.0390625,
+       "width": 11.03515625,
+       "height": 6.0546875,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/32.jpg",
+   "file": "images/32.jpg",
+   "nhom": "32"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.938,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.938,
+      "value": {
+       "x": 34.48963165283203,
+       "y": 56.28353953361511,
+       "width": 27.584421634674072,
+       "height": 21.396470069885254,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.878,
+      "value": {
+       "x": 1.093960553407669,
+       "y": 36.60029470920563,
+       "width": 23.790522664785385,
+       "height": 23.865649104118347,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g2",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.878,
+      "value": {
+       "x": 32.172173261642456,
+       "y": 75.5750298500061,
+       "width": 17.492318153381348,
+       "height": 17.925238609313965,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g3",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.853,
+      "value": {
+       "x": 2.28937566280365,
+       "y": 62.7941370010376,
+       "width": 14.479522407054901,
+       "height": 14.61094617843628,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g4",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.828,
+      "value": {
+       "x": 28.638261556625366,
+       "y": 48.10406565666199,
+       "width": 15.128028392791748,
+       "height": 15.129494667053223,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g5",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.784,
+      "value": {
+       "x": 56.201475858688354,
+       "y": 61.87449097633362,
+       "width": 28.530311584472656,
+       "height": 29.71353530883789,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g6",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.778,
+      "value": {
+       "x": 61.66379451751709,
+       "y": 45.424845814704895,
+       "width": 11.574828624725342,
+       "height": 11.65185272693634,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g7",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.759,
+      "value": {
+       "x": 70.04067301750183,
+       "y": 28.332284092903137,
+       "width": 20.48203945159912,
+       "height": 20.09264826774597,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g8",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.744,
+      "value": {
+       "x": 41.815927624702454,
+       "y": 26.93907618522644,
+       "width": 21.10264003276825,
+       "height": 21.454226970672607,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g9",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.689,
+      "value": {
+       "x": 78.3845067024231,
+       "y": 53.67608666419983,
+       "width": 14.713430404663086,
+       "height": 14.600598812103271,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/33.jpg",
+   "file": "images/33.jpg",
+   "nhom": "33"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.937,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 1024,
+      "original_height": 1024,
+      "image_rotation": 0,
+      "score": 0.937,
+      "value": {
+       "x": 40.686315298080444,
+       "y": 47.96963930130005,
+       "width": 12.311571836471558,
+       "height": 12.350618839263916,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/34.jpg",
+   "file": "images/34.jpg",
+   "nhom": "34"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 0.949,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 800,
+      "original_height": 800,
+      "image_rotation": 0,
+      "score": 0.949,
+      "value": {
+       "x": 51.255821228027344,
+       "y": 48.52376174926758,
+       "width": 14.836112976074219,
+       "height": 22.126995086669922,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g1",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 800,
+      "original_height": 800,
+      "image_rotation": 0,
+      "score": 0.903,
+      "value": {
+       "x": 86.17389678955078,
+       "y": 34.264129638671875,
+       "width": 4.5217742919921875,
+       "height": 6.391887664794922,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g2",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 800,
+      "original_height": 800,
+      "image_rotation": 0,
+      "score": 0.744,
+      "value": {
+       "x": 6.271052360534668,
+       "y": 79.4769515991211,
+       "width": 34.8900842666626,
+       "height": 6.834075927734375,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     },
+     {
+      "id": "g3",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 800,
+      "original_height": 800,
+      "image_rotation": 0,
+      "score": 0.573,
+      "value": {
+       "x": 74.723876953125,
+       "y": 26.415664672851562,
+       "width": 4.073478698730469,
+       "height": 3.824739456176758,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "image": "/data/local-files/?d=data_real_train/images/35.jpg",
+   "file": "images/35.jpg",
+   "nhom": "35"
+  },
+  "predictions": [
+   {
+    "model_version": "ket_hop_rfdetr+probe",
+    "score": 1.0,
+    "result": [
+     {
+      "id": "g0",
+      "from_name": "label",
+      "to_name": "image",
+      "type": "rectanglelabels",
+      "original_width": 800,
+      "original_height": 800,
+      "image_rotation": 0,
+      "score": 1.0,
+      "value": {
+       "x": 39.125,
+       "y": 41.875,
+       "width": 11.125,
+       "height": 10.875,
+       "rotation": 0,
+       "rectanglelabels": [
+        "obstruction"
+       ]
+      }
+     }
+    ]
+   }
+  ]
  }
 ]
