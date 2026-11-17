@@ -9,7 +9,7 @@ Việc đang làm: **gán nhãn tay ảnh che thật** (đã có khung gợi ý 
 
 | Đường dẫn | Nội dung |
 |---|---|
-| `labelstudio/nguoi_1/`, `labelstudio/nguoi_2/` | **Phần việc gán nhãn của từng người**: `images/` (ảnh), `tasks.json` (ảnh + khung gợi ý). Gán xong thì thêm `export.json` vào đây |
+| `labelstudio/nguoi_1/`, `nguoi_2/`, `nguoi_3/`… | **Phần việc gán nhãn của từng người**: `images/` (ảnh), `tasks.json` (ảnh + khung gợi ý). Gán xong thì thêm `export.json` vào đây |
 | `labelstudio/label_config.xml` | Cấu hình giao diện gán nhãn cho Label Studio |
 | `data_real_obstruct/`, `data_real_obstruct_2/` | Ảnh che thật gốc (nguồn) |
 | `data_real_train/manifest.csv` | Danh sách ảnh train sau khi lọc trùng (ảnh trong `data_real_train/images/` sinh lại bằng bước 1–3) |
@@ -73,7 +73,7 @@ Chọn kernel **logo-obstruct (.venv)** khi mở notebook. Ngoài thư viện, c
 
 ## 2. Gán nhãn trên Label Studio
 
-Mỗi người làm **một folder riêng**: người 1 dùng `labelstudio/nguoi_1`, người 2 dùng `labelstudio/nguoi_2`. Trong các bước dưới, thay `nguoi_k` bằng folder của bạn.
+Mỗi người làm **một folder riêng**: người 1 dùng `labelstudio/nguoi_1`, người 2 dùng `labelstudio/nguoi_2`, người 3 dùng `labelstudio/nguoi_3`… Trong các bước dưới, thay `nguoi_k` bằng folder của bạn.
 
 ### Khởi động (mỗi lần làm)
 
@@ -150,7 +150,7 @@ Có thể export và push nhiều lần trong lúc làm: mỗi lần export đ�
    - **Mẫu âm** (ảnh không che, không cần gán nhãn): `NGUON_SACH` lấy 300 ảnh shop chính hãng Adidas / Nike, phần `train` trong `annotations/store_selection.json`. Phần `val` và `test` của bộ ảnh shop được coi là tập test, nên không bao giờ vào train.
      - Các ảnh này nằm ngoài repo, đường dẫn gốc là `D:\Code\KGM\dataset\adidas1631618372-images` và `…\nike-flagship-store-images`.
      - Máy không có 2 folder này thì bước 1 báo **CẢNH BÁO thiếu file** và train sẽ không có mẫu âm.
-   - Bước 4 (nhãn gợi ý) và 4b (chia việc) **không chạy lại**, vì sẽ tạo lại folder `nguoi_*`.
+   - Chạy lại bước 4 và 4b cũng an toàn: chúng chỉ xử lý ảnh che **chưa giao cho ai**. Không có ảnh mới thì không làm gì. Đừng đặt `CHIA_LAI_TU_DAU = True`, vì tùy chọn này chia lại từ đầu và xóa folder `nguoi_*`.
 2. Train tiếp RF-DETR với ảnh thật (val bằng ảnh thật):
 
 ```powershell
@@ -163,7 +163,18 @@ Có thể export và push nhiều lần trong lúc làm: mỗi lần export đ�
 .venv\Scripts\python.exe -X utf8 rfdetr_eval.py --ckpt work/rfdetr_real_out/checkpoint_best_total.pth
 ```
 
-Khi có thêm folder ảnh che mới (ví dụ của người khác), thêm nó vào `NGUON_CHE` trong notebook rồi chạy bước 1–4b. Ảnh trùng với ảnh đã có, hoặc trùng với tập test, sẽ tự bị loại.
+### Thêm người gán nhãn mới (ví dụ người 3 có folder ảnh che riêng)
+
+1. Chép ảnh vào một folder mới trong repo, ví dụ `data_real_obstruct_3/`.
+2. Trong ô tham số của `chuan_bi_du_lieu_that.ipynb`: thêm folder vào `NGUON_CHE`, đặt `NGUOI_MOI = ["nguoi_3"]`.
+3. Chạy bước 1 → 4b:
+   - Ảnh trùng ảnh đã có, trùng tập test hoặc trùng ảnh shop sẽ tự bị loại.
+   - Nếu ảnh mới trùng ảnh đã gán (kể cả khi lớn hơn), ảnh **đã gán được giữ**, nên nhãn cũ không mất.
+   - Chỉ ảnh mới được gợi ý nhãn (bằng model mới) và chép vào `labelstudio/nguoi_3/`. `nguoi_1` và `nguoi_2` không bị đụng tới.
+4. Commit và push `data_real_obstruct_3/` cùng `labelstudio/nguoi_3/`. Người 3 pull về rồi làm theo mục 2 với `nguoi_k = nguoi_3`.
+5. Người 3 push `labelstudio/nguoi_3/export.json`. Sau đó chạy bước 5 (in tiến độ từng người) và train lại.
+
+Sau này người 3 có thêm ảnh: chép thêm vào folder cũ, rồi chạy lại bước 1 → 4b. Ảnh mới được **thêm** vào `nguoi_3/`, kèm `tasks_moi.json` chỉ chứa phần mới. Nếu đã import `tasks.json` vào Label Studio thì chỉ import `tasks_moi.json`.
 
 ## Lưu ý
 
