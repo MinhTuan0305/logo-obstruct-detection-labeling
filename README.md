@@ -67,7 +67,7 @@ uv pip install --python .venv\Scripts\python.exe --index-strategy unsafe-best-ma
 
 Chọn kernel **logo-obstruct (.venv)** khi mở notebook. Ngoài thư viện, còn cần các model sau (không có trong repo):
 - **DINOv2-base:** tải `facebook/dinov2-base` từ Hugging Face, rồi đặt biến môi trường `DINO_DIR` trỏ tới thư mục đó.
-- `work/probe.pt`, `work/rfdetr_out/checkpoint_best_total.pth`: xin từ người giữ repo.
+- `work/probe.pt`, `work/rfdetr_real_out/checkpoint_best_total.pth` (model đang dùng), `work/rfdetr_out/checkpoint_best_total.pth` (bản chỉ train dữ liệu tổng hợp, dùng làm `--init` khi train lại): xin từ người giữ repo.
 
 ---
 

@@ -1,4 +1,4 @@
-"""Nạp và chạy các model phát hiện vùng che: probe DINOv2 (work/probe.pt), RF-DETR (work/rfdetr_out/…), kết hợp.
+"""Nạp và chạy các model phát hiện vùng che: probe DINOv2 (work/probe.pt), RF-DETR (work/rfdetr_real_out/…), kết hợp.
 
 Dùng chung cho notebook gán nhãn gợi ý (chuan_bi_du_lieu_that.ipynb) và các script khác.
 
@@ -22,7 +22,8 @@ WORK = ROOT / "work"
 # DINOv2-base (facebook/dinov2-base). Máy khác: đặt biến môi trường DINO_DIR trỏ tới thư mục model đã tải.
 DINO_DIR = Path(os.environ.get("DINO_DIR", r"D:\Code\TH.AntiFakeExt\poc\models\dinov2-base"))
 PROBE_PT = WORK / "probe.pt"
-RFDETR_CKPT = WORK / "rfdetr_out" / "checkpoint_best_total.pth"
+# RF-DETR fine-tune thêm trên ảnh che thật + mẫu âm shop (bản cũ chỉ dữ liệu tổng hợp: work/rfdetr_out/…)
+RFDETR_CKPT = WORK / "rfdetr_real_out" / "checkpoint_best_total.pth"
 MAX_SIDE = 1024
 SIZE, PATCH, LAYERS = 518, 14, (4, 8, 12)
 G = SIZE // PATCH

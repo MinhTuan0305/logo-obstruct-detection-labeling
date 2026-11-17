@@ -6,7 +6,7 @@
 - Shop test (150 ảnh sạch): số ảnh có khung, tổng số khung (đều là báo thừa).
 Ghi tờ ảnh work/rfdetr_eval_{dataset,dataset2,shop}.jpg ở ngưỡng gợi ý.
 
-Chạy: .venv\\Scripts\\python.exe -X utf8 rfdetr_eval.py [--ckpt work/rfdetr_out/checkpoint_best_total.pth] [--model small]
+Chạy: .venv\\Scripts\\python.exe -X utf8 rfdetr_eval.py [--ckpt work/rfdetr_real_out/checkpoint_best_total.pth] [--model small]
 """
 import argparse
 import json
@@ -86,7 +86,7 @@ def sheet(pred, items, thr, out, gts=None, cols=6):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--ckpt", default=str(WORK / "rfdetr_out" / "checkpoint_best_total.pth"))
+    ap.add_argument("--ckpt", default=str(WORK / "rfdetr_real_out" / "checkpoint_best_total.pth"))
     ap.add_argument("--model", choices=["nano", "small"], default="small")
     a = ap.parse_args()
     from rfdetr import RFDETRNano, RFDETRSmall
