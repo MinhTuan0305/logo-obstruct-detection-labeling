@@ -147,6 +147,9 @@ Có thể export và push nhiều lần trong lúc làm: mỗi lần export đ�
 1. `chuan_bi_du_lieu_that.ipynb`:
    - nếu vừa clone repo, chạy bước 1–3 để sinh lại `data_real_train/images/`;
    - sau đó chạy **bước 5**: gộp mọi `labelstudio/nguoi_*/export.json` thành `data_real_train/coco_{train,val}.json`.
+   - **Mẫu âm** (ảnh không che, không cần gán nhãn): `NGUON_SACH` lấy 300 ảnh shop chính hãng Adidas / Nike, phần `train` trong `annotations/store_selection.json`. Phần `val` và `test` của bộ ảnh shop được coi là tập test, nên không bao giờ vào train.
+     - Các ảnh này nằm ngoài repo, đường dẫn gốc là `D:\Code\KGM\dataset\adidas1631618372-images` và `…\nike-flagship-store-images`.
+     - Máy không có 2 folder này thì bước 1 báo **CẢNH BÁO thiếu file** và train sẽ không có mẫu âm.
    - Bước 4 (nhãn gợi ý) và 4b (chia việc) **không chạy lại**, vì sẽ tạo lại folder `nguoi_*`.
 2. Train tiếp RF-DETR với ảnh thật (val bằng ảnh thật):
 
