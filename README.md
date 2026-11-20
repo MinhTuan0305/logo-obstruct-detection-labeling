@@ -67,6 +67,7 @@ uv pip install --python .venv\Scripts\python.exe --index-strategy unsafe-best-ma
 
 Chọn kernel **logo-obstruct (.venv)** khi mở notebook. Ngoài thư viện, còn cần các model sau (không có trong repo):
 - **DINOv2-base:** tải `facebook/dinov2-base` từ Hugging Face, rồi đặt biến môi trường `DINO_DIR` trỏ tới thư mục đó.
+- **OWLv2-base** (cho bước lọc vùng sản phẩm): tải `google/owlv2-base-patch16-ensemble`, đặt biến môi trường `OWL_DIR`. Không có model này thì tắt lọc: `LOC_SAN_PHAM = False`.
 - `work/probe.pt`, `work/rfdetr_real_out/checkpoint_best_total.pth` (model đang dùng), `work/rfdetr_out/checkpoint_best_total.pth` (bản chỉ train dữ liệu tổng hợp, dùng làm `--init` khi train lại): xin từ người giữ repo.
 
 ---
@@ -162,6 +163,18 @@ Có thể export và push nhiều lần trong lúc làm: mỗi lần export đ�
 ```powershell
 .venv\Scripts\python.exe -X utf8 rfdetr_eval.py --ckpt work/rfdetr_real_out/checkpoint_best_total.pth
 ```
+
+   Thêm `--loc-san-pham` để in số đo **không lọc** và **có lọc vùng sản phẩm** cạnh nhau.
+
+### Lọc theo vùng sản phẩm (bật / tắt)
+
+OWLv2 tìm sản phẩm trước (giày, áo, túi, hộp giày; khung nới 8%). Chỉ giữ khung che có ≥ 50% diện tích nằm trong sản phẩm. Ảnh không tìm thấy sản phẩm nào thì giữ nguyên mọi khung.
+
+| Ở đâu | Biến |
+|---|---|
+| `kiem_tra_model.ipynb`, ô tham số | `LOC_SAN_PHAM = True / False`, `HIEN_VUNG_SAN_PHAM` (vẽ khung sản phẩm) |
+| `obstruct_models.py` (dùng cho gợi ý nhãn ở bước 4 và script khác) | `LOC_SAN_PHAM`, `SAN_PHAM_PHRASES`, `NGUONG_SAN_PHAM`, `NOI_SAN_PHAM`, `TI_LE_TRONG`; hoặc `Models(loc_san_pham=False)` |
+| `rfdetr_eval.py` | cờ `--loc-san-pham` |
 
 ### Thêm người gán nhãn mới (ví dụ người 3 có folder ảnh che riêng)
 
